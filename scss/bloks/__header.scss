@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 73px;
+  position: relative;
+
+  &__nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    gap: 40px;
+  }
+  &__h1 {
+    font-size: 64px;
+    line-height: 100px;
+    font-weight: 700;
+    width: 350px;
+  }
+  &__p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    width: 730px;
+  }
+  &__div-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    padding-bottom: 120px;
+  }
+  &__img {
+    padding-bottom: 40px;
+  }
+  &__dizayn {
+    position: absolute;
+    right: 0;
+  }
+  &__color {
+    border: none;
+    background-color: #014e56;
+  }
+}

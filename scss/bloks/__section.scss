@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: #f67e7e;
+  padding: 76px 132px;
+
+  &__h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #012f34;
+  }
+  &_btn {
+    border: 2px solid#012F34;
+    color: #012f34;
+  }
+  &__img {
+    margin: 48px 0;
+  }
+  &_2 {
+    border: none;
+    background-color: #012f34;
+  }
+}
